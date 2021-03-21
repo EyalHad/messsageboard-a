@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _Direction
+#define _Direction
+
 
 namespace ariel {
 	// Defines a direction of a message on the board
@@ -7,3 +9,4 @@ namespace ariel {
 		Vertical	
 	};
 }
+#endif // !_Direction
